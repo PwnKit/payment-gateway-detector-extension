@@ -1,0 +1,1 @@
+# payment-gateway-detector-extension
