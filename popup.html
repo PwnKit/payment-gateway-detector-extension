@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Payment Gateway Detector</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+
+  <div class="app">
+    <div class="hero">
+      <div class="hero-top">
+        <div>
+          <div class="eyebrow">PAYMENT INTELLIGENCE</div>
+          <h1>Gateway Detector</h1>
+        </div>
+        <div class="orb-wrap"><div class="orb"></div></div>
+      </div>
+      <p class="hero-copy">
+        Auto-scans the active page and reruns twice after short delays to catch late-loading checkout resources.
+      </p>
+      <div class="hero-strip">
+        <span class="hero-pill">Auto Scan</span>
+        <span class="hero-pill">Second Pass</span>
+        <span class="hero-pill">Third Pass</span>
+      </div>
+    </div>
+
+    <div id="status" class="status ready">Opening scan...</div>
+    <div id="meta" class="meta"></div>
+    <div id="results" class="results"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

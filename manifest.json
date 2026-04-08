@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Payment Gateway Detector",
+  "version": "2.1.0",
+  "description": "Accurate payment gateway detector with auto scanning, delayed rescans, grouped evidence, and stricter gateway fingerprints.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_title": "Payment Gateway Detector",
+    "default_popup": "popup.html"
+  }
+}
